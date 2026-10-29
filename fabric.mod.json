@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "offlinecrypt",
+	"version": "${version}",
+	"name": "Cifratura Offline",
+	"description": "Cifra la connessione anche dei giocatori non premium (online-mode=false, o fatti entrare da EasyAuth) con la cifratura senza login Mojang introdotta in Minecraft 1.20.5. Solo lato server: ai client non serve niente.",
+	"authors": ["yuiop"],
+	"environment": "server",
+	"mixins": ["offlinecrypt.mixins.json"],
+	"accessWidener": "offlinecrypt.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "1.21.11",
+		"java": ">=21"
+	}
+}

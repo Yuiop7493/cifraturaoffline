@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "dev.yuiop.offlinecrypt.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"server": [
+		"ServerLoginPacketListenerImplMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
